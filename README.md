@@ -8,13 +8,24 @@ Movie Review Sentiment Classifier using Scikit-learn and NLTK
 ## 📖 Project Description
 This project implements a complete Machine Learning pipeline to perform Sentiment Analysis on a dataset of 50,000 movie reviews from IMDb. The goal is to classify a review as "positive" or "negative" using Natural Language Processing (NLP) techniques and to compare the performance of different classification algorithms.
 
+The project culminates in two key artifacts: a full exploratory analysis notebook and a functional command-line tool capable of classifying new, unseen movie reviews using a pre-trained model.
+
 ## 🚀 Technologies Used
 - **Python 3**
 - **Pandas:** For data manipulation and analysis.
 - **NLTK (Natural Language Toolkit):** For text preprocessing, including tokenization, and stopword removal.
 - **Scikit-learn:** For text vectorization (TF-IDF), data splitting, model training, and evaluation.
+- **Joblib:** For serializing and deserializing the trained model and vectorizer.
 - **Seaborn & Matplotlib:** For data visualization, such as the Confusion Matrix.
 - **Jupyter Notebook (via VS Code):** As the interactive development environment.
+
+
+## ⚙️ How to Use the Project
+1. **Training the Model**
+To train the model from scratch using the full dataset, **run the train.py script**. This will perform all data cleaning and processing, train the final Logistic Regression model, and save the **model.pkl** and **vectorizer.pkl** files.
+2. **Making Predictions**
+To use the pre-trained model to classify a new sentence, **run the predict.py script**. It will load the saved artifacts and provide a sentiment prediction instantly.
+You can edit the example sentences inside the predict.py file to test your own reviews.
 
 ## 📈 Applied Methodology
 The project followed a structured Data Science pipeline:
