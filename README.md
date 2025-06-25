@@ -22,7 +22,7 @@ The project culminates in two key artifacts: a full exploratory analysis noteboo
 install the dependencies in a virtual environment.
 
 ### Step 1: Train the Model
-This step only needs to be run once. It will execute the entire data processing pipeline and save the final model (`model.pkl`) and vectorizer (`vectorizer.pkl`) files.
+This step only needs to be run once. It will execute the entire data processing pipeline and save the final model (`model.pkl`) and vectorizer (`vectorizer.pkl`) files. You can also Download the files directly from github.
 
 # From the project's root directory
 python train.py
